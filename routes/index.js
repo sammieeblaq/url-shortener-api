@@ -15,7 +15,8 @@ try {
         return res.status(404).json("No url found!!!")
     }
 } catch (error) {
-    
+    console.error(error);
+    res.status(500).json("Server Error");
 }
 })
 
