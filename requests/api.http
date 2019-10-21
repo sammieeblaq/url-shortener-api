@@ -1,6 +1,6 @@
-POST http://localhost:3000/api/url/shorten
+POST   http://localhost:3000/api/url/shorten
 Content-Type: application/json
 
 {
-    "longUrl": 
+    "longUrl": "https://www.amazon.com/DualShock-Wireless-Controller-PlayStation-Magma-4/dp/B01MD19OI2?pf_rd_p=190167bc-8caf-4fc0-8d35-69c23fc562c8&pf_rd_r=2HVW0ZA9C63W6B0F2RMZ&th=1"
 }
